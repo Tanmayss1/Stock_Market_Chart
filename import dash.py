@@ -9,7 +9,7 @@ import os
 app = dash.Dash(__name__)
 
 # Directory containing CSV files
-csv_dir =' put file path here'  # Change this to the correct path
+csv_dir = r''  # Change this to the correct path
 
 # Get the list of CSV files
 csv_files = [f for f in os.listdir(csv_dir) if f.endswith('.csv')]

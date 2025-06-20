@@ -9,7 +9,7 @@ import os
 app = dash.Dash(__name__)
 
 # Directory containing CSV files
-csv_dir = r''  # Change this to the correct path
+csv_dir = r'C:\Users\Tanmay Singh\Desktop\Data Analyst 2023\Git Repo\Stock Market Data Yfinance\Stocks_data'  # Change this to the correct path
 
 # Get the list of CSV files
 csv_files = [f for f in os.listdir(csv_dir) if f.endswith('.csv')]
@@ -109,4 +109,4 @@ def update_chart(selected_stock, chart_type):
 
 # Run the app
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_Server(debug=True)

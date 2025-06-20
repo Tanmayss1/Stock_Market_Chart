@@ -9,7 +9,7 @@ import os
 app = dash.Dash(__name__)
 
 # Directory containing CSV files
-csv_dir = r'C:\Users\Tanmay Singh\Desktop\Data Analyst 2023\Git Repo\Stock Market Data Yfinance\Stocks_data'  # Change this to the correct path
+csv_dir = r''  # Change this to the current path where all the csv files are stored and make sure to change app.run_Server to app.run in the last line
 
 # Get the list of CSV files
 csv_files = [f for f in os.listdir(csv_dir) if f.endswith('.csv')]
